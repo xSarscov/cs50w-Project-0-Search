@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="/image_search.html">Images</a></li>
+            <li><a href="/advanced_search.html">Advanced search</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <form action="https://www.google.com/search" method="get">
+            <input type="hidden" name="hl" value="es">
+            <div>
+                <label for="">
+                    todas estas palabras:
+                    <input type="text" name="as_q">
+                </label>
+            </div>
+            <div>
+                <label for="">
+                    esta palabra o frase exactas:
+                    <input type="text" name="as_epq">
+                </label>
+            </div>
+            <div>
+                <label for="">
+                    cualquiera de estas palabras:
+                    <input type="text" name="as_oq">
+                </label>
+            </div>
+            <div>
+                <label for="">
+                    ninguna de estas palabras:
+                    <input type="text" name="as_eq">
+                </label>
+            </div>
+            <input type="submit" value="Advanced search">
+        </form>
+    </main>
+
+    <footer>
+        <div>
+            <p>Nicaragua</p>
+        </div>
+        <div>
+            <p>Sobre google</p>
+            <p>Publicidad</p>
+            <p>Negocios</p>
+            <p>Cómo funciona la Búsqueda</p>
+        </div>
+        <div>
+            <p>Privacidad</p>
+            <p>Condiciones</p>
+            <p>Preferencias</p>
+        </div>
+    </footer>
+</body>
+</html>
