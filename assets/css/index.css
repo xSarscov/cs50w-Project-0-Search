@@ -10,7 +10,128 @@ body {
     font-family: arial,sans-serif;
 }
 
-.navbar ul li:first-child, .navbar ul li:nth-child(2) {
+.navbar a {
+    font: 13px/27px Roboto,Arial,sans-serif;
+}
+
+main section {
+    gap: 1.6rem;
+}
+
+footer {
+    background-color: #171717;
+}
+
+footer ul {
+    padding: 0!important;
+    margin: 0!important;
+}
+
+footer li {
+    list-style: none;
+}
+
+.country {
+    border-bottom: #3C4043 1px solid;
+    padding: 12px 30px;
+    font-size: 15px;
+
+}
+
+.quick-links {
+    padding: 0 35px;
+}
+
+.quick-links a {
+    white-space: nowrap;
+    padding: 13px;
+}
+
+.quick-links ul div {
+    gap: 1.9rem;
+}
+
+.google-logo {
+    height: 233px;
+}
+
+.search-input {
+    max-width: 608px;
+}
+
+.search-input .google-search > input {
+    height: 48px;
+    width: 100%;
+    background-color: transparent;
+    border: #5F6368 1px solid;
+    color: #fff;
+}
+
+.search-input .google-search > input:hover {
+    background-color: #303134;
+    box-shadow: 0 1px 6px 0 #171717;
+    border-color: rgba(223,225,229,0);
+}
+
+.search-input .google-search > input:focus-visible {
+    outline: none;
+}
+
+.search-input svg:nth-child(2) {
+    right: 57px;
+}
+
+.search-input svg:nth-child(3) {
+    right: 17px;
+}
+
+.google-btns {
+    margin-top: 1.9rem;
+    gap: .7rem;
+}
+
+.google-btns input {
+    background-color: #303134;
+    font-size: 14px;
+    
+}
+
+.google-btns input:hover {
+    background-color: #303134;
+    border: #5F6368 1px solid;
+}
+
+.lang {
+    margin-top: 0.7rem;
+}
+
+.lang > span {
+    font-size: small;
+    color: #bdc1c6;   
+}
+
+.lang span > a {
+    text-decoration: none;
+    color: #8AB4D6;
+
+}
+
+.lang span > a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 816px) {
+    .quick-links ul {
+        flex-wrap: wrap;
+        justify-content: space-evenly !important;
+
+        div {
+            gap: 0;
+        }
+    }
+}
+
+/* .navbar ul li:first-child, .navbar ul li:nth-child(2) {
     padding-top: 0.2rem !important;
 }
 
@@ -31,6 +152,8 @@ footer {
     max-width: 582px;
     background-color: transparent;
     border: #5F6368 1px solid;
+    color: white;background-color: transparent;
+    border: #5F6368 1px solid;
     color: white;
     padding: 10px 8px 12px 14px;
 }
@@ -46,15 +169,20 @@ footer {
 }
 
 .search-icon {
-    top: 23px;
+    top: 21px;
 }
 
 .mic-icon {
     top: 10px;
-    right: 60px;
+    right: 100px;
 }
 
 .cam-icon {
+    top: 10px;
+    right: 60px;
+}
+
+.mg-glass {
     top: 10px;
     right: 20px;
 }
@@ -134,3 +262,12 @@ footer a {
 #google-acc:hover {
     background-color: #2F3034;
 }
+
+.img-text {
+    color: #4487f6;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position: absolute;
+    top: 240px;
+    left: 670px;
+    white-space: nowrap;
+} */
