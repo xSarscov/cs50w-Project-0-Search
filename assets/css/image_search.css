@@ -18,7 +18,6 @@ body {
     font: 13px/27px Roboto,Arial,sans-serif;
 }
 
-
 main section {
     gap: 1.6rem;
 }
@@ -97,11 +96,15 @@ footer li {
 }
 
 .search-input svg:nth-child(2) {
-    right: 57px;
+    right: 101px;
 }
 
 .search-input svg:nth-child(3) {
-    right: 17px;
+    right: 61px;
+}
+
+.search-input svg:nth-child(4) {
+    right: 18px;
 }
 
 .google-btns {
@@ -146,6 +149,13 @@ footer li {
 
 .lang span > a:hover {
     text-decoration: underline;
+}
+
+.image-text {
+    color: #4487f6;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    left: 215px;
+    white-space: nowrap;
 }
 
 @media (max-width: 1200px) {
