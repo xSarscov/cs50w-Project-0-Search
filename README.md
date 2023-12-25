@@ -1,15 +1,15 @@
-# Project 0: Web50 - Google Search Page
+# Project 0: Web50 - Google Search Page 🦇
 
-[Live Solution](https://xsarscov.github.io/cs50w-Project-0-Search/)
+[Live Solution](https://xsarscov.github.io/cs50w-Project-0-Search/) ✔️
 
 ## Description
-This repository contains my solution for Project 0 of the Web50 course at Harvard, where the task was to recreate the Google Search page along with Google Image Search and Google Advanced Search pages. The project focuses on HTML and CSS to achieve the desired functionality and aesthetics.
+This repository contains my solution for Project 0 of the Web50 course at Harvard, where the task was to recreate the Google Search page along with Google Image Search and Google Advanced Search pages. The project focuses on HTML and CSS to achieve the desired functionality and aesthetics. 🤠
 
 ## Project Requirements
 1. Three Pages:
    - index.html (Regular Google Search)
-   - image.html (Google Image Search)
-   - advanced.html (Google Advanced Search)
+   - image_search.html (Google Image Search)
+   - advanced_search.html (Google Advanced Search)
 
 2. Navigation Links:
    - On Google Search: Links to Image Search and Advanced Search.
@@ -40,6 +40,7 @@ This repository contains my solution for Project 0 of the Web50 course at Harvar
 
 ## Implementation Details
 - HTML and CSS files for each page.
+- Utilized Bootstrap to enhance responsiveness and styling.
 - Responsive design resembling Google's aesthetics.
 - Consistent use of colors, fonts, and styling as per Google's CSS.
 
@@ -61,4 +62,4 @@ This repository contains my solution for Project 0 of the Web50 course at Harvar
 ## Credits
 - This project was completed as part of the Web50 course at Harvard.
 
-Feel free to explore the code and provide feedback!
+Feel free to explore the code and provide feedback! 👍
