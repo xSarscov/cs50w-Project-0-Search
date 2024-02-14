@@ -7,7 +7,7 @@ body {
     background-color: #202124;
     color: white;
     font-size: 14px;
-    font-family: arial,sans-serif;
+    font-family: arial, sans-serif;
 }
 
 .navbar {
@@ -15,7 +15,7 @@ body {
 }
 
 .navbar a {
-    font: 13px/27px Roboto,Arial,sans-serif;
+    font: 13px/27px Roboto, Arial, sans-serif;
 }
 
 
@@ -28,8 +28,8 @@ footer {
 }
 
 footer ul {
-    padding: 0!important;
-    margin: 0!important;
+    padding: 0 !important;
+    margin: 0 !important;
 }
 
 footer li {
@@ -41,12 +41,14 @@ footer li {
     width: 40px !important;
 }
 
-#google-apps:hover, #google-acc:hover {
+#google-apps:hover,
+#google-acc:hover {
     background-color: #2F3034;
 }
 
 
-.navbar .nav-link:hover, .navbar-nav .nav-link:hover  {
+.navbar .nav-link:hover,
+.navbar-nav .nav-link:hover {
     text-decoration: underline;
 }
 
@@ -78,7 +80,7 @@ footer li {
     max-width: 608px;
 }
 
-.search-input .google-search > input {
+.search-input .google-search>input {
     height: 48px;
     width: 100%;
     background-color: transparent;
@@ -86,13 +88,13 @@ footer li {
     color: #fff;
 }
 
-.search-input .google-search > input:hover {
+.search-input .google-search>input:hover {
     background-color: #303134;
     box-shadow: 0 1px 6px 0 #171717;
-    border-color: rgba(223,225,229,0);
+    border-color: rgba(223, 225, 229, 0);
 }
 
-.search-input .google-search > input:focus-visible {
+.search-input .google-search>input:focus-visible {
     outline: none;
 }
 
@@ -133,19 +135,23 @@ footer li {
     margin-top: 1.1rem;
 }
 
-.lang > span {
+.lang>span {
     font-size: small;
-    color: #bdc1c6;   
+    color: #bdc1c6;
 }
 
-.lang span > a {
+.lang span>a {
     text-decoration: none;
     color: #8AB4D6;
     padding: 0 3px;
 }
 
-.lang span > a:hover {
+.lang span>a:hover {
     text-decoration: underline;
+}
+
+#menu {
+    display: none;
 }
 
 @media (max-width: 1200px) {
@@ -153,9 +159,7 @@ footer li {
         justify-content: space-evenly !important;
     }
 
-    #menu {
-        display: none;
-    }
+
 }
 
 @media (max-width: 816px) {
@@ -188,6 +192,7 @@ footer li {
 
     .quick-links ul div {
         align-items: center !important;
+
         div {
             gap: 0;
         }
