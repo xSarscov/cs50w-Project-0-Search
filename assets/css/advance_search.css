@@ -24,8 +24,12 @@ body {
     white-space: nowrap;
 }
 
-.navbar .nav-link:hover {
+.navbar .nav-link:hover, .navbar-nav .nav-link:hover {
     text-decoration: underline;
+}
+
+#menu {
+    display: none !important;
 }
 
 #google-apps {
@@ -154,8 +158,9 @@ main section {
         border: 1px solid #3079ed;
         color: #fff;
     }
-    
+
 }
+
 
 footer {
     background-color: #F2F2F2;
@@ -225,5 +230,15 @@ footer {
 
     .submit-btn {
         margin-left: 0 !important;
+    }
+}
+
+@media (max-width: 478px) {
+    .menu-options {
+        display: none;
+    }
+
+    #menu {
+        display: block !important;
     }
 }

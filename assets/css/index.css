@@ -46,7 +46,7 @@ footer li {
 }
 
 
-.navbar .nav-link:hover {
+.navbar .nav-link:hover, .navbar-nav .nav-link:hover  {
     text-decoration: underline;
 }
 
@@ -71,7 +71,7 @@ footer li {
 }
 
 .google-logo {
-    height: 233px;
+    height: 218px;
 }
 
 .search-input {
@@ -152,6 +152,10 @@ footer li {
     .quick-links ul {
         justify-content: space-evenly !important;
     }
+
+    #menu {
+        display: none;
+    }
 }
 
 @media (max-width: 816px) {
@@ -166,22 +170,32 @@ footer li {
 
 @media (max-width: 392px) {
 
+    #menu {
+        display: block;
+    }
+
+    .menu-options {
+        display: none;
+    }
+
     footer {
         margin-top: 3rem;
     }
 
     .quick-links ul {
-        flex-direction: column;
         align-items: center;
     }
 
-
-
     .quick-links ul div {
-        flex-direction: column !important;
         align-items: center !important;
         div {
             gap: 0;
         }
     }
+
+    .quick-links a {
+        font-size: 12px;
+        padding: 6px;
+    }
+
 }
