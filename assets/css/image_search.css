@@ -161,7 +161,7 @@ footer li {
 }
 
 #menu {
-    display: none;
+    display: none !important;
 }
 
 @media (max-width: 1200px) {
@@ -186,7 +186,7 @@ footer li {
 @media (max-width: 392px) {
 
     #menu {
-        display: block;
+        display: block !important;
     }
 
     .menu-options {
