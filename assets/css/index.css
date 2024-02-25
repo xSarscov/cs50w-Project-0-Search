@@ -4,10 +4,124 @@ html {
 }
 
 body {
-    background-color: #202124;
-    color: white;
     font-size: 14px;
     font-family: arial, sans-serif;
+}
+
+[data-bs-theme="dark"] {
+    background-color: #202124 !important;
+    color: #fff !important;
+
+    .navbar a {
+        color: #fff !important;
+    }
+
+    #google-apps:hover,
+    #google-acc:hover {
+        background-color: #2F3034;
+    }
+
+    .search-input .google-search>input:hover {
+        background-color: #303134;
+        box-shadow: 0 1px 6px 0 #171717;
+        border-color: rgba(223, 225, 229, 0);
+    }
+
+    .google-search>input {
+        border: #5F6368 1px solid;
+        color: #fff;
+    }
+
+    .google-btns input {
+        background-color: #303134;
+    }
+
+    .google-btns input:hover {
+        background-color: #303134;
+        border: #5F6368 1px solid;
+    }
+    
+    .google-btns input:active {
+        background-color: #303134 !important;
+        border: #5F6368 1px solid !important;
+    }
+
+    .google-btns input:focus {
+        border: #5F6368 1px solid !important;
+    }
+    
+
+    footer {
+        background-color: #171717;
+    }
+
+    .country {
+        border-bottom: #3C4043 1px solid;
+    }
+}
+
+[data-bs-theme="light"] {
+    background-color: #fff !important;
+    color: #000 !important;
+
+    .navbar a {
+        color: #000;
+    }
+
+    #google-apps {
+        color: #5F6368 !important;
+    }
+    
+    #google-apps:hover,
+    #google-acc:hover {
+        background-color: rgba(60,64,67,.08);
+    }
+
+    .search-input .google-search>input:hover {
+        background-color: #fff;
+        box-shadow: 0 1px 6px rgba(32,33,36,.28);
+        border-color: rgba(223,225,229,0);
+
+    }
+    
+    .google-search>input {
+        border: #DADCE0 1px solid !important;
+    }
+
+    .google-btns input {
+        background-color: #f8f9fa;
+        color: #3c4043 !important;
+    }
+
+    .google-btns input:hover {
+        box-shadow: 0 1px 1px rgba(0,0,0,.1);
+        background-color: #f8f9fa;
+        border: 1px solid #dadce0;
+        color: #202124;
+    }
+
+
+    .google-btns input:focus {
+        border: 1px solid #4285f4;
+        outline: none;
+    }
+    
+    .lang>span {
+        color: #4d5156;
+    }
+
+    .lang span>a {
+        text-decoration: none;
+        padding: 0 3px;
+    }
+
+    footer {
+        background-color: #EEEEEE !important;
+    }
+
+    .country {
+        border-bottom: #D6D8DC 1px solid !important;
+    }   
 }
 
 .navbar {
@@ -21,10 +135,6 @@ body {
 
 main section {
     gap: 1.6rem;
-}
-
-footer {
-    background-color: #171717;
 }
 
 footer ul {
@@ -41,19 +151,12 @@ footer li {
     width: 40px !important;
 }
 
-#google-apps:hover,
-#google-acc:hover {
-    background-color: #2F3034;
-}
-
-
 .navbar .nav-link:hover,
 .navbar-nav .nav-link:hover {
     text-decoration: underline;
 }
 
 .country {
-    border-bottom: #3C4043 1px solid;
     padding: 12.4px 30px 12px;
     font-size: 15px;
 
@@ -73,7 +176,7 @@ footer li {
 }
 
 .google-logo {
-    height: 218px;
+    height: 288px;
 }
 
 .search-input {
@@ -84,14 +187,6 @@ footer li {
     height: 48px;
     width: 100%;
     background-color: transparent;
-    border: #5F6368 1px solid;
-    color: #fff;
-}
-
-.search-input .google-search>input:hover {
-    background-color: #303134;
-    box-shadow: 0 1px 6px 0 #171717;
-    border-color: rgba(223, 225, 229, 0);
 }
 
 .search-input .google-search>input:focus-visible {
@@ -112,23 +207,8 @@ footer li {
 }
 
 .google-btns input {
-    background-color: #303134;
     font-size: 14px;
     padding: .4rem 1rem;
-}
-
-.google-btns input:hover {
-    background-color: #303134;
-    border: #5F6368 1px solid;
-}
-
-.google-btns input:active {
-    background-color: #303134 !important;
-    border: #5F6368 1px solid !important;
-}
-
-.google-btns input:focus {
-    border: #5F6368 1px solid !important;
 }
 
 .lang {
@@ -137,12 +217,10 @@ footer li {
 
 .lang>span {
     font-size: small;
-    color: #bdc1c6;
 }
 
 .lang span>a {
     text-decoration: none;
-    color: #8AB4D6;
     padding: 0 3px;
 }
 
@@ -208,6 +286,11 @@ footer li {
     .google-btns, .google-btns input {
         display: none;
     }
-   
 
+}
+
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+    .google-logo {
+        height: 130px;
+    }
 }
