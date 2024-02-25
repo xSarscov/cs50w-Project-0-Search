@@ -191,7 +191,9 @@ footer li {
     }
 
     .quick-links ul div {
+        justify-content: center;
         align-items: center !important;
+        flex-wrap: wrap;
 
         div {
             gap: 0;
@@ -202,5 +204,10 @@ footer li {
         font-size: 12px;
         padding: 6px;
     }
+
+    .google-btns, .google-btns input {
+        display: none;
+    }
+   
 
 }

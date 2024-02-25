@@ -82,7 +82,9 @@
     <main class="h-100">
         <section class="h-100 d-flex flex-column align-items-center justify-content-start">
             <div class="google-logo d-flex align-items-end">
-                <img class="" alt="Google" height="92" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png" width="272">
+                <img class="" alt="Google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png"
+     srcset="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_160x56dp.png 1.5x">
+
             </div>
             <div class="search-input container text-center">
                 <form action="https://www.google.com/search" id="search-form" method="get">
@@ -98,7 +100,7 @@
                         <input class="rounded-pill ps-5" autocomplete="off" type="text" name="q" id="search-field">
                     </div>
 
-                    <div class="d-flex justify-content-center google-btns ">
+                    <div class="d-flex justify-content-center google-btns flex-wrap w-100">
                         <input type="submit" name="btnK" value="Google Search" aria-label="Google Search" tabindex="0" role="button" class="rounded-1 text-white btn" id="search-btn">
                         <input type="submit" name="btnI" value="I'm Feeling Lucky" aria-label="I'm Feeling Lucky" class="rounded-1 text-white btn">
                     </div>
