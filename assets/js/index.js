@@ -31,18 +31,21 @@ document.addEventListener('DOMContentLoaded', () => {
     const toggleColorModeBtn = document.querySelector('#theme-toggle');
     const getStoredTheme = localStorage.getItem('theme') || 'dark';
     const setStoredTheme = theme => localStorage.setItem('theme', theme);
-    
+
     const setTheme = theme => document.documentElement.setAttribute('data-bs-theme', theme);
+
+    const updateColorModeText = theme => toggleColorModeBtn.innerText = `Dark mode: ${theme === 'dark' ? 'on' : 'off'}`;
     
     toggleColorModeBtn.addEventListener('click', () => {
         const newTheme = localStorage.getItem('theme') === 'dark' ? 'light' : 'dark';
         setStoredTheme(newTheme);
-        toggleColorModeBtn.innerText = `Dark mode: ${newTheme === 'dark' ? 'on' : 'off'}`;
+        updateColorModeText(newTheme);
         setTheme(newTheme);
         ChangeLogoColor();
     });
     
     setTheme(getStoredTheme);
+    updateColorModeText(getStoredTheme);
     ChangeLogoColor();
 
 });
