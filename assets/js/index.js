@@ -29,7 +29,6 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     const toggleColorModeBtn = document.querySelector('#theme-toggle');
-    const getPageTheme = () => document.querySelector('html').getAttribute('data-bs-theme');
     const getStoredTheme = localStorage.getItem('theme') || 'dark';
     const setStoredTheme = theme => localStorage.setItem('theme', theme);
     
