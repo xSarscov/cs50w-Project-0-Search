@@ -152,7 +152,7 @@ footer li {
 }
 
 .navbar .nav-link:hover,
-.navbar-nav .nav-link:hover {
+.navbar-nav .nav-link:hover, .quick-links .nav-link:hover {
     text-decoration: underline;
 }
 
