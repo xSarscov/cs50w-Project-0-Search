@@ -166,9 +166,9 @@ footer li {
     padding: 0 22.5px;
 }
 
-.quick-links a {
+.quick-links a, button {
     white-space: nowrap;
-    padding: 12.5px;
+    padding: 12.5px !important;
 }
 
 .quick-links div.d-flex {
@@ -278,9 +278,9 @@ footer li {
         }
     }
 
-    .quick-links a {
-        font-size: 12px;
-        padding: 6px;
+    .quick-links a, button {
+        font-size: 12px !important;
+        padding: 6px !important;
     }
 
     .google-btns, .google-btns input {
